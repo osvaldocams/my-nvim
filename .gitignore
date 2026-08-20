@@ -1,3 +1,4 @@
+# Exclusiones originales de la plantilla de LazyVim
 tt.*
 .tests
 doc/tags
@@ -6,3 +7,9 @@ debug
 foo.*
 *.log
 data
+
+# Reglas adicionales para respaldos y archivos del sistema
+.DS_Store
+*.swp
+*.tmp
+lazy-lock.json.bak
