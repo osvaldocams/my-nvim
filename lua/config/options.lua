@@ -21,3 +21,9 @@ vim.opt.linebreak = true
 
 -- Opcional: agrega un pequeño indicador visual al inicio de la línea envuelta
 vim.opt.showbreak = "↪ "
+
+-- Activar el corrector ortográfico globalmente (opcional, LazyVim lo activa en Markdown/Git)
+vim.opt.spell = false
+
+-- Definir idiomas: español e inglés simultáneamente
+vim.opt.spelllang = { "es", "en" }
